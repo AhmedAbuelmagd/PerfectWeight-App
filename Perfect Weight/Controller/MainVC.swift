@@ -33,9 +33,10 @@ class MainVC: UIViewController {
         
     }
 
-    @IBAction func sideMenuActiom(_ sender: UIBarButtonItem) {
+    
+
+    @IBAction func sideMenuAction(_ sender: UIButton) {
         RadioClass.ToggleMenu()
     }
-    
 }
 

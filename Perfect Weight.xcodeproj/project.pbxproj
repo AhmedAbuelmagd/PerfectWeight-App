@@ -12,6 +12,12 @@
 		311A1E0E20448E39001ECECC /* RadioClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A1E0D20448E39001ECECC /* RadioClass.swift */; };
 		311A1E1220449330001ECECC /* BigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A1E1120449330001ECECC /* BigViewController.swift */; };
 		311A1E142044BAFB001ECECC /* MySideBarShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311A1E132044BAFB001ECECC /* MySideBarShadowView.swift */; };
+		3199B5BA204682320067442B /* Noto Kufi Arabic Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3199B5B42046822D0067442B /* Noto Kufi Arabic Bold.ttf */; };
+		3199B5BB204682320067442B /* Droid Arabic Kufi Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3199B5B52046822E0067442B /* Droid Arabic Kufi Bold.ttf */; };
+		3199B5BC204682320067442B /* Droid Arabic Kufi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3199B5B6204682300067442B /* Droid Arabic Kufi.ttf */; };
+		3199B5BD204682320067442B /* GE Thameen Book Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3199B5B7204682310067442B /* GE Thameen Book Italic.otf */; };
+		3199B5BE204682320067442B /* DIN Next LT W23 Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3199B5B8204682310067442B /* DIN Next LT W23 Light.otf */; };
+		3199B5BF204682320067442B /* GE SS Two Bold Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3199B5B9204682320067442B /* GE SS Two Bold Bold.otf */; };
 		31CFF6132040AA7200DA8F80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFF6122040AA7200DA8F80 /* AppDelegate.swift */; };
 		31CFF6152040AA7200DA8F80 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CFF6142040AA7200DA8F80 /* MainVC.swift */; };
 		31CFF6182040AA7200DA8F80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CFF6162040AA7200DA8F80 /* Main.storyboard */; };
@@ -40,6 +46,12 @@
 		311A1E0D20448E39001ECECC /* RadioClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioClass.swift; sourceTree = "<group>"; };
 		311A1E1120449330001ECECC /* BigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigViewController.swift; sourceTree = "<group>"; };
 		311A1E132044BAFB001ECECC /* MySideBarShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySideBarShadowView.swift; sourceTree = "<group>"; };
+		3199B5B42046822D0067442B /* Noto Kufi Arabic Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Noto Kufi Arabic Bold.ttf"; sourceTree = "<group>"; };
+		3199B5B52046822E0067442B /* Droid Arabic Kufi Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Droid Arabic Kufi Bold.ttf"; sourceTree = "<group>"; };
+		3199B5B6204682300067442B /* Droid Arabic Kufi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Droid Arabic Kufi.ttf"; sourceTree = "<group>"; };
+		3199B5B7204682310067442B /* GE Thameen Book Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GE Thameen Book Italic.otf"; sourceTree = "<group>"; };
+		3199B5B8204682310067442B /* DIN Next LT W23 Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Next LT W23 Light.otf"; sourceTree = "<group>"; };
+		3199B5B9204682320067442B /* GE SS Two Bold Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GE SS Two Bold Bold.otf"; sourceTree = "<group>"; };
 		31CFF60F2040AA7200DA8F80 /* Perfect Weight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Perfect Weight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31CFF6122040AA7200DA8F80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31CFF6142040AA7200DA8F80 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -74,10 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3199B5B32046810A0067442B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3199B5B8204682310067442B /* DIN Next LT W23 Light.otf */,
+				3199B5B52046822E0067442B /* Droid Arabic Kufi Bold.ttf */,
+				3199B5B6204682300067442B /* Droid Arabic Kufi.ttf */,
+				3199B5B9204682320067442B /* GE SS Two Bold Bold.otf */,
+				3199B5B7204682310067442B /* GE Thameen Book Italic.otf */,
+				3199B5B42046822D0067442B /* Noto Kufi Arabic Bold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		31CFF6062040AA7200DA8F80 = {
 			isa = PBXGroup;
 			children = (
 				31CFF6112040AA7200DA8F80 /* Perfect Weight */,
+				3199B5B32046810A0067442B /* Resources */,
 				31CFF6292040AA7300DA8F80 /* Perfect WeightTests */,
 				31CFF6102040AA7200DA8F80 /* Products */,
 			);
@@ -223,8 +249,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				31CFF6202040AA7200DA8F80 /* LaunchScreen.storyboard in Resources */,
+				3199B5BD204682320067442B /* GE Thameen Book Italic.otf in Resources */,
+				3199B5BB204682320067442B /* Droid Arabic Kufi Bold.ttf in Resources */,
+				3199B5BC204682320067442B /* Droid Arabic Kufi.ttf in Resources */,
 				31CFF61D2040AA7200DA8F80 /* Assets.xcassets in Resources */,
 				31CFF6182040AA7200DA8F80 /* Main.storyboard in Resources */,
+				3199B5BE204682320067442B /* DIN Next LT W23 Light.otf in Resources */,
+				3199B5BA204682320067442B /* Noto Kufi Arabic Bold.ttf in Resources */,
+				3199B5BF204682320067442B /* GE SS Two Bold Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
